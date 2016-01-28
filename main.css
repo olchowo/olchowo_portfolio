@@ -1,0 +1,241 @@
+@font-face {
+    font-family: Lato;
+    src: url(lato-medium.ttf);
+}
+
+@font-face {
+	font-family: Constantia;
+	src: url(constan.ttf);
+}
+
+
+body {
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	padding: 0;
+}
+
+
+/* NAGLOWEK */
+
+#top {
+	height: 210px;
+	width: inherit;
+	background-color: white;
+	z-index: 1;
+	position: fixed;
+	top: -10px;
+}
+
+#logo {
+	height: 100px;
+	width: 320px;
+	display: inline-block;
+	background-color: white;
+	float: left;
+	margin-left: 60px;
+	margin-top: 78px;
+}
+
+#hedera {
+	height: 48px;
+	width: 65px;
+	margin-top: 120px;
+	float: left;
+}
+
+.navi {
+	height: 60px;
+	width: 420px;
+	background-color: white;
+	display: inline-block;
+	float: inherit;
+	margin-top: 120px;
+	margin-right: 60px;
+}
+
+.navi ul {
+	display: inline-block; 
+}
+
+.navi li {
+	font-family: Lato;
+	font-size: 1.5em;
+	color: black;
+	display: inline;
+	text-align: center;
+	margin: 4px;
+}
+
+.navi a {
+	text-decoration: none;
+	color: black;
+}
+
+.navi a:hover {
+	color: #003399;
+}
+
+
+/* CZESC GLOWNA */
+
+.kreska {
+	width: auto;
+	height: 10px;
+	background-color: black;
+	position: relative;
+	top: 20px;
+}
+
+.glowny {
+	min-height: 600px; 
+	width: auto;
+	background-color: white;
+	position: relative;
+	margin-top: 200px;
+}
+
+.glowny a {
+	font-family: Lato;
+	font-size: 1em;
+	color: slategray;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+.glowny a:hover {
+	color: #003399;
+}
+
+/*.glowny a:visited {
+	color: lightgray
+} */
+
+h3 {
+	font-family: Lato;
+	font-size: 1em;
+	color: black;
+}
+
+.glowny p {
+	font-family: Lato;
+	font-size: 1em;
+	color: black;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+#tekst-lewy {
+	height: 300px;
+	width: 300px; 
+	margin-top: 30px;
+	margin-left: 40px;
+	position: relative;
+	float: left;
+	background-color: white;
+}
+
+span {
+	color: slategray;
+}
+
+#tekst-prawy {
+	height: 300px;
+	width: 600px; 
+	top: 30px;
+	margin-right: 20px;
+	float: right;
+	background-color: white;
+	position: relative;
+}
+
+#tekst-prawy ul {
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+	line-height: 1.5em;
+	list-style-type: none;
+}
+
+.a-blok {
+	padding-left: 10px;
+	text-align: right;
+}
+
+.kreska-2 {
+	width: auto;
+	height: 10px;
+	background-color: black;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+
+/* STOPKA */
+
+#stopa {
+	height: 70px; 
+	width: inherit;
+	background-color: white;
+	position: fixed;
+	bottom: -10px;
+}
+
+#aktualizacja {
+	height: 20px;
+	width: auto;
+	position: relative;
+	bottom: 40px;
+}
+
+#aktualizacja p {
+	font-family: Constantia;
+	font-size: 0.8em;
+	font-variant-numeric: oldstyle-nums;
+	text-align: center;
+	color: slategray;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+/* FORMULARZ KONTAKTOWY */
+
+#guzik {
+	width: 60px;
+	height: 30px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: lightgray;
+	color: black;
+	font-size: 1em;
+	font-family: Lato;
+	box-shadow: 1px 1px 2px lightgray;
+}
+
+input {
+	font-family: Lato;
+	display: block;
+	width: 300px;
+	height: 30px;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px 1px lightgray;
+}
+
+textarea {
+	font-family: Lato;
+	display: block;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px 1px lightgray;
+	max-width: 560px;
+	max-height: 240px;
+}
+
+label {
+	display: block;
+}
+
+
+
+
