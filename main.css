@@ -1,11 +1,11 @@
 @font-face {
     font-family: Lato;
-    src: url(lato-medium.ttf);
+    src: url(fonts/lato-medium.ttf);
 }
 
 @font-face {
 	font-family: Constantia;
-	src: url(constan.ttf);
+	src: url(fonts/constan.ttf);
 }
 
 
